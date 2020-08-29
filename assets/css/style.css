@@ -34,3 +34,28 @@ body {
 	border-bottom-width: 2px;
 	margin-bottom: 10px;
 }
+.content-center input:focus {
+	border-bottom-color: #D07335;
+}
+.content-center button {
+	background-color: #D07335;
+	color: #fff;
+}
+.content-center button:hover {
+	background-color: #B55B28;
+	cursor: pointer;
+}
+.content-center button:active {
+	background-color: #C14E0E;
+}
+header a {
+	color: #4F4F4F;
+	text-decoration: none;
+}
+header a:visited {
+	color: #000;
+	text-decoration: none;
+}
+header a:hover {
+	text-decoration: underline;
+}
