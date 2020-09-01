@@ -12,5 +12,8 @@ document.querySelector('#form-login').addEventListener('mouseleave', e => {
 });
 document.querySelector('#form-login').addEventListener('submit', e => {
 	e.preventDefault();
-	console.log('O formuário foi enviado! Aqui vai o ajax...')
+	let email = document.querySelector('#email').value;
+	let password = document.querySelector('#password').value;
+	console.log(email, password)
+	
 });
